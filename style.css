@@ -1,170 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 body {
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    margin: 0px;
-    padding: 0px;
-  }
-  .wrapper {
-    width: 1080px;
-    margin: auto;
-    padding: 0px;
-  }
-  .images {
-    width: 100%;
-    text-align: center;
-    margin: 20px 0px;
-  }
-  
-  .images img {
-    max-width: 20%;
-    border-radius: 50%;
-  }
-  
-  .bios {
-    width: 100%;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper {
+  width: 1080px;
+  margin: auto;
+  padding: 0px;
+}
+.images {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.images img {
+  max-width: 20%;
+  border-radius: 50%;
+}
+h1{
+  font-family: 'Belanosima', sans-serif;
+}
+.bios {
+  width: 100%;
+}
+.bios p {
+  text-align: center;
+  font-weight: 900;
+font-family: 'Bacasime Antique', serif;
+  font-size: 20px;
+  line-height: 30px;
+  /* letter-spacing: 1px; */
+}
+.linkes {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+.linkes ul {
+  list-style: none;
+}
+
+.linkes ul li a:hover {
+  color: #fff;
+}
+.linkes ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+.linkes ul li {
+  line-height: 60px;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  margin-top: 20px;
+  border-radius: 47px;
+  /* font-family: 'Pacifico'; */
+  /* font-family: 'Pacifico'; */
+  font-family: "Lobster", cursive;
+  line-height: 71px;
+  cursor: pointer;
+}
+.linkes ul li:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  border: 1px solid teal;
+  box-shadow: 2px 2px 2px 0px black;
+}
+.linkes ul li:hover a {
+  color: #000;
+}
+
+.linkes ul li span {
+  float: right;
+  margin-right: 18px;
+  font-size: 47px;
+  line-height: 49px;
+}
+.linkes ul li span:hover {
+  color: #fff;
+}
+
+.icon-share {
+  color: #fff;
+  font-size: 20px;
+}
+
+.linkedin {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  color: #0077b5;
+  line-height: 72px;
+}
+.github {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  color: #000;
+  line-height: 72px;
+}
+.gmail {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  line-height: 72px;
+}
+.instagram {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  color: #f6035c;
+  line-height: 72px;
+}
+.twitter {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  color: #1c96e8;
+  line-height: 72px;
+}
+.facebook {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  color: #1873eb;
+  line-height: 72px;
+}
+.whatsupp {
+  font-size: 38px;
+  float: left;
+  margin-left: 28px;
+  color: #29ad17;
+  line-height: 72px;
+}
+@media screen and (max-width: 500px) {
+  .linkes ul li a {
+    font-size: 14px;
   }
   .bios p {
-    text-align: center;
-    font-weight: 900;
-    font-family: monospace;
-    font-size: 20px;
-    line-height: 30px;
-    /* letter-spacing: 1px; */
+    font-size: 15px;
+    line-height: 22px;
   }
-  .linkes {
-    width: 75%;
-    text-align: center;
-    margin: auto;
-  }
-  .linkes ul {
-    list-style: none;
-  }
-  .linkes ul li {
-    line-height: 60px;
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
-    margin-top: 20px;
-    border-radius: 47px;
-    line-height: 71px;
-    cursor: pointer;
-  }
-  .linkes ul li a:hover {
-    color: #fff;
-  }
-  .linkes ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  .linkes ul li:hover {
-    background-color: #fff;
-    transition: 0.5s;
-    border: 1px solid teal;
-    box-shadow: 2px 2px 2px 0px black;
-  }
-  .linkes ul li:hover a {
-    color: #000;
-  }
-  
-  .linkes ul li span {
-    float: right;
-    margin-right: 18px;
-    font-size: 47px;
-    line-height: 49px;
-  }
-  .linkes ul li span:hover {
-    color: #fff;
-  }
-  
   .icon-share {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 41px;
   }
-  
+
   .linkedin {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    color: #0077b5;
-    line-height: 72px;
+    font-size: 30px;
   }
   .github {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    color: #000;
-    line-height: 72px;
+    font-size: 30px;
   }
   .gmail {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    line-height: 72px;
+    font-size: 30px;
   }
   .instagram {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    color: #f6035c;
-    line-height: 72px;
+    font-size: 30px;
   }
   .twitter {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    color: #1c96e8;
-    line-height: 72px;
+    font-size: 30px;
   }
   .facebook {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    color: #1873eb;
-    line-height: 72px;
+    font-size: 30px;
   }
   .whatsupp {
-    font-size: 38px;
-    float: left;
-    margin-left: 28px;
-    color: #29ad17;
-    line-height: 72px;
+    font-size: 30px;
   }
-  @media screen and (max-width: 500px) {
-    .linkes ul li a {
-      font-size: 14px;
-    }
-    .bios p {
-      font-size: 15px;
-      line-height: 22px;
-    }
-    .icon-share {
-      color: #fff;
-      font-size: 18px;
-      margin-bottom: 41px;
-    }
-    
-    .linkedin {
-      font-size: 30px;
-    }
-    .github {
-      font-size: 30px;
-    }
-    .gmail {
-      font-size: 30px;
-    }
-    .instagram {
-      font-size: 30px;
-    }
-    .twitter {
-      font-size: 30px;
-    }
-    .facebook {
-      font-size: 30px;
-    }
-    .whatsupp {
-      font-size: 30px;
-    }
-  }
-  
+}
